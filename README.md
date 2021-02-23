@@ -1,2 +1,2 @@
-# hyperdrive-schemas
-Protobuf schemas for the Hyperdrive API.
+# @ddrive/schemas
+Protobuf schemas for the dDrive API.
