@@ -1,26 +1,26 @@
 {
-  "name": "hyperdrive-schemas",
-  "version": "2.0.0",
-  "description": "Protobuf schemas for Hyperdrive and its daemon.",
+  "name": "@ddrive/schemas",
+  "version": "1.0.0",
+  "description": "Protobuf schemas for dDrive and the dDrive CLI",
   "main": "index.js",
   "scripts": {
-    "build": "protocol-buffers schemas/hyperdrive.proto -o lib/messages.js"
+    "build": "protocol-buffers schemas/ddrive.proto -o lib/messages.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewosh/hyperdrive-schemas.git"
+    "url": "git+https://github.com/dwebprotocol/ddrive-schemas.git"
   },
   "keywords": [
-    "hyperdrive",
+    "ddrive",
     "protobuf",
     "schema"
   ],
-  "author": "Andrew Osheroff <andrewosh@gmail.com>",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewosh/hyperdrive-schemas/issues"
+    "url": "https://github.com/dwebprotocol/ddrive-schemas/issues"
   },
-  "homepage": "https://github.com/andrewosh/hyperdrive-schemas#readme",
+  "homepage": "https://dwebx.org",
   "devDependencies": {
     "protocol-buffers": "^4.1.0"
   },
