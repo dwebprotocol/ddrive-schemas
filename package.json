@@ -1,6 +1,6 @@
 {
   "name": "@ddrive/schemas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Protobuf schemas for dDrive and the dDrive CLI",
   "main": "index.js",
   "scripts": {
